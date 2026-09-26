@@ -1,0 +1,22 @@
+int a, b;
+int soma, subtracao, produto, quociente, resto;
+
+
+Console.WriteLine("-- Operações Aritméticas --");
+
+
+a = 7;
+b = 2;
+
+
+soma = a + b;
+subtracao = a - b;
+produto = a * b;
+quociente = a / b;
+resto = a % b;
+
+
+Console.WriteLine($"{a} + {b} = {soma}");
+Console.WriteLine($"{a} - {b} = {subtracao}");
+Console.WriteLine($"{a} * {b} = {produto}");
+Console.WriteLine($"{a} / {b} = {quociente}, e sobra {resto}");
